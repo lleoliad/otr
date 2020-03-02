@@ -1,0 +1,311 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "hp-progress-bg",
+      "texture": "0d2gD90jdPgbGCjoAgxbPh",
+      "rect": [
+        1,
+        6,
+        177,
+        15
+      ],
+      "offset": [
+        -0.5,
+        -1
+      ],
+      "originalSize": [
+        180,
+        25
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "boss",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "boss",
+      "_children": [
+        {
+          "__id__": 2
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "f61dcrjVjJMQYt0u4NNfCLm",
+          "node": {
+            "__id__": 1
+          },
+          "bulletPrefab": {
+            "__uuid__": "891s4m7YtFxoCWxHAPqU8j"
+          },
+          "jumpLoop": {
+            "__id__": 6
+          },
+          "hp": {
+            "__id__": 5
+          }
+        },
+        {
+          "__id__": 6
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "19bpWKu2JDsYnwvInLbdfn"
+        },
+        "fileId": "59d3ePxgxhP17q/bKZe2Mkj"
+      },
+      "_anchorPoint": {
+        "__type__": "cc.Vec2",
+        "x": 0.5
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_groupIndex": 4,
+      "groupIndex": 4
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "hp",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 3
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 2
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "0cGzVdiUJLQZQBwa5b6hPf"
+          },
+          "_type": 1
+        },
+        {
+          "__id__": 5
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "19bpWKu2JDsYnwvInLbdfn"
+        },
+        "fileId": "96027axN9L57n9HccZZaMZ"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 177,
+        "height": 15
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          -113,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "bar",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__id__": 4
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "19bpWKu2JDsYnwvInLbdfn"
+        },
+        "fileId": "6bqwBCct9G1acbQTzTMkPQ"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 172,
+        "height": 10
+      },
+      "_anchorPoint": {
+        "__type__": "cc.Vec2",
+        "y": 0.5
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          -86,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Sprite",
+      "node": {
+        "__id__": 3
+      },
+      "_materials": [
+        {
+          "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+        }
+      ],
+      "_spriteFrame": {
+        "__uuid__": "87h8dC6HFAk7rLJMpjKvw3"
+      },
+      "_type": 1,
+      "_sizeMode": 0
+    },
+    {
+      "__type__": "cc.ProgressBar",
+      "node": {
+        "__id__": 2
+      },
+      "_N$totalLength": 172,
+      "_N$barSprite": {
+        "__id__": 4
+      }
+    },
+    {
+      "__type__": "cc.Animation",
+      "node": {
+        "__id__": 1
+      },
+      "_defaultClip": {
+        "__uuid__": "e2u7Fu421GYbW7sQqlBbsT"
+      },
+      "_clips": [
+        {
+          "__uuid__": "e2u7Fu421GYbW7sQqlBbsT"
+        }
+      ]
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "hp-progress-bar",
+      "texture": "b9wxHJA0ZCbILjLCKMvHSk",
+      "rect": [
+        4,
+        8,
+        172,
+        10
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        180,
+        25
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "boss",
+    "_duration": 4,
+    "sample": 30,
+    "wrapMode": 2,
+    "curveData": {
+      "props": {
+        "y": [
+          {
+            "frame": 0,
+            "value": 0,
+            "curve": "cubicOut"
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": 100
+          },
+          {
+            "frame": 1.3333333333333333,
+            "value": 0
+          },
+          {
+            "frame": 2.6666666666666665,
+            "value": -200,
+            "curve": "cubicIn"
+          },
+          {
+            "frame": 4,
+            "value": 0
+          }
+        ]
+      }
+    }
+  }
+]

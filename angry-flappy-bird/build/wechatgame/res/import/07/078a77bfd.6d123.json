@@ -1,0 +1,68 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "1",
+      "texture": "0562AA7rNHtotQXGi0nZW2",
+      "rect": [
+        0,
+        0,
+        60,
+        50
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        60,
+        50
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "2",
+      "texture": "0562AA7rNHtotQXGi0nZW2",
+      "rect": [
+        60,
+        0,
+        60,
+        50
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        60,
+        50
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteAtlas",
+    "_name": "3.plist",
+    "_spriteFrames": {
+      "1": {
+        "__uuid__": "1bh3wF1kFGvKlU791TpfgL"
+      },
+      "2": {
+        "__uuid__": "52K2tAxdtKe5f7rbbHI7GR"
+      }
+    }
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "4",
+    "_duration": 0.25,
+    "sample": 20,
+    "wrapMode": 2,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "f56M6sMuNBOaWE/00pNNfa"
+              }
+            },
+            {
+              "frame": 0.1,
+              "value": {
+                "__uuid__": "ccfrw0u19Lo6O88WsvTcfF"
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__uuid__": "ccfrw0u19Lo6O88WsvTcfF"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "2",
+      "texture": "64nlF1j1pDuoUV5xd8Z4HR",
+      "rect": [
+        60,
+        0,
+        60,
+        50
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        60,
+        50
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "1",
+      "texture": "64nlF1j1pDuoUV5xd8Z4HR",
+      "rect": [
+        0,
+        0,
+        60,
+        50
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        60,
+        50
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

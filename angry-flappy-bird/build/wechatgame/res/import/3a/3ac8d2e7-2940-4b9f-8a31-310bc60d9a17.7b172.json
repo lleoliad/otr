@@ -1,0 +1,118 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "skill_view",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "skill_view",
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_components": [
+      {
+        "__type__": "a9945pndiBP240zmoIBm9fU",
+        "node": {
+          "__id__": 1
+        },
+        "skillElementPrefab": {
+          "__uuid__": "f7pEEcOdZJn72xN5TuTZTx"
+        },
+        "skills": {
+          "__id__": 3
+        }
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "3ayNLnKUBLn4oxMQvGDZoX"
+      },
+      "fileId": "38FLYiHARMUoaUoUoA/O3S"
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 360,
+      "height": 132
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "skills",
+    "_parent": {
+      "__id__": 1
+    },
+    "_components": [
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "3ayNLnKUBLn4oxMQvGDZoX"
+      },
+      "fileId": "21N6PhDkRGV7P+Wo9iM+Wh"
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "height": 132
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "__type__": "cc.Layout",
+    "node": {
+      "__id__": 2
+    },
+    "_layoutSize": {
+      "__type__": "cc.Size",
+      "height": 132
+    },
+    "_resize": 1,
+    "_N$layoutType": 1,
+    "_N$spacingX": 10
+  }
+]

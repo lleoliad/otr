@@ -1,0 +1,1 @@
+{"__type__":"cc.TextAsset","_name":"chapter_mould","text":"ID\t名称\t描述\t库组\t图标\t地图资源\t标准杆数\r\nint\tstring\tstring\tint\tint\t int\tint\r\nid\tname\tdesc\tgroup\ticon\tstage\tpar\r\nnull\tnull\tnull\tnull\tnull\tnull\tnull\r\n1\t单人\t单人\t1\t1000\t0\t2\r\n2\t双人\t双人\t2\t1001\t1\t2\r\n"}

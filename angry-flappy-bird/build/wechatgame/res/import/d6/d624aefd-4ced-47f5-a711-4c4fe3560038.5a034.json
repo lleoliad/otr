@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "extras4",
+    "texture": "abbj7ZIflMO75LOKMeonr8",
+    "rect": [
+      0,
+      1,
+      117,
+      125
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      117,
+      126
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

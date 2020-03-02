@@ -1,0 +1,130 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "boss_death",
+    "_duration": 0.35,
+    "sample": 20,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "b23Q5fUzpFxK2PwUuG+g0z"
+              }
+            },
+            {
+              "frame": 0.1,
+              "value": {
+                "__uuid__": "54vXXB7d9CnZVbyiyp6iIP"
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__uuid__": "dbluDNYQ9BIpaiokzHSsY3"
+              }
+            },
+            {
+              "frame": 0.3,
+              "value": {
+                "__uuid__": "dbluDNYQ9BIpaiokzHSsY3"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "events": [
+      {
+        "frame": 0.3,
+        "func": "listener",
+        "params": [
+          "playOver"
+        ]
+      }
+    ]
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "2",
+      "texture": "b8R6f5CktBSJzmupdBRhTW",
+      "rect": [
+        270,
+        0,
+        270,
+        180
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        270,
+        180
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "1",
+      "texture": "b8R6f5CktBSJzmupdBRhTW",
+      "rect": [
+        0,
+        0,
+        270,
+        180
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        270,
+        180
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "3",
+      "texture": "b8R6f5CktBSJzmupdBRhTW",
+      "rect": [
+        540,
+        0,
+        270,
+        180
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        270,
+        180
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]
